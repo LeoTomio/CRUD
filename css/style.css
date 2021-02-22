@@ -1,0 +1,60 @@
+.campo{      
+     width:1000px;
+     height:20px;
+     
+     
+    
+}
+table{
+  width: 50%;
+  margin-bottom : .5em;
+  text-align: center;
+ 
+}
+#botao{
+    padding: 8px 25px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #1151f0;
+    font-size: 18px;
+    text-align: center ;
+    margin-left:480px;
+    
+}
+
+#botaoVoltar{
+    padding: 8px 50px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #1151f0;
+    font-size: 18px;
+    text-align: center ;
+    margin-left:480px;
+        
+    
+    
+    
+}
+#titulo{
+    text-align: center;
+    
+}
+
+body{
+    background-color: #99ebf0; 
+    
+}
+
+#tabela{
+    background-color: blue;
+    color: white; 
+    
+    
+    
+}
+
+#linhas{
+    background-color:#1cadf0;
+    color:white;
+    
+}
