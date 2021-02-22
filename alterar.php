@@ -35,42 +35,47 @@ if (isset($data['alterar'])) {
                 <tr>
                     <td>Nome</td>
                     <td align="center" id="cad">
-                        <input id="nome" class='campo' type="text" name="nome" placeholder="Insira seu nome">
+                        <input id="nome" class='campo' type="text" name="nome" placeholder="Altere o nome">
                     </td>
                 </tr>
                 <tr>
                     <td>Idade</td>
                     <td align="center">
-                        <input id="idade" class='campo' type="text"  name="idade" placeholder="Insira a idade">
+                        <input id="idade" class='campo' type="text"  name="idade" placeholder="Altere a idade" >
                     </td>
                 </tr>
                 <tr>
                     <td>CPF</td>
                     <td align="center">
-                        <input id="cpf" class='campo' type="text"  name="cpf"  placeholder="Insira o CCPF">
+                        <input id="cpf" class='campo' type="text"  name="cpf"  placeholder="Altere o CCPF">
+                        
                     </td>
                 </tr>
                 <tr>
                     <td>Telefone</td>
                     <td align="center">
-                        <input id="telefone" class='campo' type="text"  name="telefone" placeholder="Insira o numero de telefone">
+                        <input id="telefone" class='campo' type="text"  name="telefone" placeholder="Altere o numero de telefone">
                     </td>
                 </tr>
                 <tr>
                     <td>Sexo</td>
                     <td align="center">
-                        <input id="sexo" class='campo' type="text"  name="sexo" placeholder="Insira seu sexo ( M / F )">
+                        <input id="sexo" class='campo' type="text"  name="sexo" placeholder="Altere seu sexo ( M / F )">
                     </td>
                 </tr>
                 <tr>
                     <td>Endereco</td>
                     <td align="center">
-                        <input id="endereco" class='campo' type="text"  name="endereco" placeholder="Insira seu endereço">
+                        <input id="endereco" class='campo' type="text"  name="endereco" placeholder="Altere seu endereço">
                     </td>
                 </tr>
             </table>
             <button type="submit" id="botao"  name="alterar">Alterando</button>
-
+            
+            <a class="button" id="botaoVoltar" href="index.php">Voltar</a>
+            
+            
+            
         </form>
         <br><br>
 
@@ -124,7 +129,7 @@ if (isset($data['alterar'])) {
                 endforeach;
                 ?>
         </table>
-        <a href="index.php"><button id="botaoVoltar">Voltar</button></a>
+        
     </tbody>
 
 

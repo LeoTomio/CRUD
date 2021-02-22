@@ -30,24 +30,25 @@ require './Modelo/Pessoa.php';
         }
         ?>
         <h1 id="titulo">Área de Cadastro</h1>
-        <form action="alterar.php?codigo=<?php echo $param['codigo'] ?>" method="post">
+        <form method="post">
             <table width=300 height=100 align=center>
                 <tr>
                     <td>Nome</td>
                     <td align="center" id="cad">
-                        <input id="nome" class='campo' type="text" name="nome" placeholder="Insira seu nome">
+                        <input id="nome" class='campo' type="text" name="nome" placeholder="Insira o nome">
                     </td>
                 </tr>
                 <tr>
                     <td>Idade</td>
                     <td align="center">
-                        <input id="idade" class='campo' type="text"  name="idade" placeholder="Insira a idade">
+                        <input id="idade" class='campo' type="text"  name="idade" placeholder="Insira a idade" >
                     </td>
                 </tr>
                 <tr>
                     <td>CPF</td>
                     <td align="center">
                         <input id="cpf" class='campo' type="text"  name="cpf"  placeholder="Insira o CCPF">
+
                     </td>
                 </tr>
                 <tr>
@@ -69,7 +70,7 @@ require './Modelo/Pessoa.php';
                     </td>
                 </tr>
             </table>
-            <button type="submit" id="botao"  name="alterar">Alterando</button>
+            <button type="submit" id="botao" name="cadastrar" >Cadastrar</button>
 
         </form>
 
